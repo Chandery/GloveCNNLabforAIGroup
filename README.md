@@ -18,7 +18,7 @@ We have two directories in the dataset package, Raw and Processed.The Raw one is
 
 ### DataScale
 
-There are about 5700 trials in total in the dataset. The Features shapes like (channels_num, Trial_Length). Among them, the number of channels is 6; and the average of the trial length is 3229 as well as the max one is 18633. The reference method for processing the data is to pad all trials with 0 to a length of 18633, which is similar to masking the data.
+There are about 6500 trials in total in the dataset. The Features shapes like (channels_num, Trial_Length). Among them, the number of channels is 6; and the average of the trial length is 3229 as well as the max one is 18633. The reference method for processing the data is to pad all trials with 0 to a length of 18633, which is similar to masking the data.
 
 ## Models
 
